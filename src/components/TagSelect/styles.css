@@ -12,6 +12,9 @@
     height: 40px;
     box-sizing: border-box;
 }
+.tag-select__placeholder {
+    color: #B2B9C7;
+}
 .tag-select__icon {
     display: flex;
     align-items: center;

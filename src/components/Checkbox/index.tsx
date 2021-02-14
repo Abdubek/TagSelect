@@ -1,15 +1,15 @@
-import React from 'react';
-import './styles.css'
+import React from "react";
+import "./styles.css";
 
 type Props = {
-  label: string | React.ReactNode
-}
+  label: string | React.ReactNode;
+};
 
-export type CheckboxProps = Props & React.InputHTMLAttributes<HTMLInputElement>
+export type CheckboxProps = Props & React.InputHTMLAttributes<HTMLInputElement>;
 
 const Checkbox = ({ label, ...props }: CheckboxProps) => {
   return (
-    <label className='checkbox'>
+    <label className="checkbox">
       <input type="checkbox" {...props} />
       <span className="checkbox__mark" />
       {label}
